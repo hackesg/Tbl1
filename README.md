@@ -1,33 +1,92 @@
-# Tbl1## Blue Team / SOC Development (Ongoing Project)
+# 🔵 Blue Team / SOC Development (BTL1 Journey)
+Aspiring SOC Analyst building hands-on experience in threat detection, log analysis, and incident response.
 
-I am currently focusing on strengthening my defensive cybersecurity skills as part of my Blue Team development.
+This repository documents my hands-on training in cybersecurity, focusing on SOC analysis, networking, and ethical hacking fundamentals.
 
-### Recent Practice
+## 🛡️ Core Skills Developed
 
-- Analyzing brute force attack patterns (multiple failed login attempts followed by successful access)
-- Identifying potential C2 beaconing through interval-based traffic analysis (e.g., 60-second recurring connections)
-- Investigating encoded PowerShell execution as a possible malicious indicator
-- Practicing alert triage methodology (Analyze → Validate → Classify → Decide)
-- Differentiating True Positive vs False Positive alerts
-- Performing severity classification (Low / Medium / High)
-- Making host isolation decisions based on risk assessment
+Over the past weeks, I have been actively training in:
 
-### Tools & Environment
+### 🛡️ SOC (Security Operations Center) Skills
+- Log analysis (authentication logs, network logs)
+- Identifying brute force attacks
+- Detecting suspicious outbound connections (possible C2 traffic)
+- Understanding false positives vs true positives
+- Basic incident response workflow:
+  - Detection → Analysis → Decision → Documentation
 
-- Kali Linux (VirtualBox lab environment)
-- Wireshark (traffic analysis)
-- Nmap (network enumeration & verification)
-- Windows event logs (simulated analysis scenarios)
-- Controlled lab machines for attack simulation & detection practice
+### 🔍 Network Traffic Analysis
+- Using Wireshark to inspect live traffic
+- Identifying normal vs suspicious traffic patterns
+- Understanding HTTP status codes (200 OK, 404 Not Found, etc.)
+- Investigating unusual IP addresses and connections
 
-### Key Learning
+### 🌐 Networking Fundamentals
+- DNS & DHCP basics
+- How attackers exploit networks:
+  - DHCP starvation
+  - Rogue DHCP
+- Understanding ports and services (22, 80, 443, 8080, etc.)
 
-I am learning that defensive security is not about reacting fast, but about:
-- Structured thinking
-- Pattern recognition
-- Evidence-based decisions
-- Clear documentation
+###  Linux & Security Tools (Kali Linux)
+- Basic Linux commands
+- Firewall configuration (UFW)
+- Nmap scanning:
+  - Basic scan
+  - Full port scan
+  - Service/version detection
+- Understanding secure vs insecure configurations
 
-This is an ongoing project, and I continuously improve my analytical mindset through practical lab scenarios.
+### 💀 Offensive Security Basics
+- Simulated attacks in lab environments
+- Sniffing HTTP traffic (capturing credentials in cleartext)
+- Introduction to exploitation concepts
+- Understanding how attackers gain access and move inside systems
 
-All training is performed in controlled and isolated lab environments for educational purposes.
+### 📊 SOC Thinking & Analysis
+- How to think like a SOC analyst:
+  - What is normal?
+  - What is suspicious?
+  - What needs investigation?
+- Pattern recognition in logs and alerts
+- Breaking down attacks step-by-step
+
+---
+
+## 🧪 Hands-on Labs
+- Kali Linux in VirtualBox
+- Network traffic analysis with Wireshark
+- Nmap scanning exercises
+- SOC-style alert investigations (TryHackMe)
+
+---
+
+## 🎯 Current Goal
+- Preparing for:
+  - eJPT (Junior Penetration Tester)
+  - Blue Team Level 1 (BTL1)
+
+---
+
+## 📈 Next Steps
+- Deep dive into:
+  - Process tree analysis (malware detection)
+  - SIEM tools (Wazuh / Splunk)
+  - Real SOC scenarios and incident response
+  - Advanced network attack detection
+
+---
+
+## 💡 Mindset
+I am focused on building **real, practical skills** through hands-on labs, not just theory.
+
+---
+
+## 📌 Note
+All activities are performed in controlled lab environments for educational purposes only.
+
+## 🎯 Training Platform
+
+- Active training on TryHackMe (SOC Level 1 & Blue Team paths)
+- Hands-on labs simulating real SOC alerts and investigations
+- Focus on detection, analysis, and incident response workflows
